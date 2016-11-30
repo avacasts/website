@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-12-01T21:55:53+02:00</updated><id>//</id><title type="html">AVA Casts</title><subtitle>AVA Casts is a series of short screencasts about AVA test framework.
+</subtitle><entry><title type="html">Introduction</title><link href="/episodes/1-introduction" rel="alternate" type="text/html" title="Introduction" /><published>2016-11-30T21:47:37+02:00</published><updated>2016-11-30T21:47:37+02:00</updated><id>/episodes/1-introduction</id><content type="html" xml:base="/episodes/1-introduction">&lt;p&gt;In this episode we’re going to learn what AVA is, how to set it up and after that we’ll check out a few of AVA’s features.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Resources:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;AVA&lt;/strong&gt; - &lt;a href=&quot;https://github.com/avajs/ava&quot;&gt;https://github.com/avajs/ava&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mz&lt;/strong&gt; - &lt;a href=&quot;https://github.com/normalize/mz&quot;&gt;https://github.com/normalize/mz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;async/await&lt;/strong&gt; - &lt;a href=&quot;https://jakearchibald.com/2014/es7-async-functions/&quot;&gt;https://jakearchibald.com/2014/es7-async-functions/&lt;/a&gt; (explanatory post)&lt;/li&gt;
+&lt;/ul&gt;</content><summary type="html">In this episode we’re going to learn what AVA is, how to set it up and after that we’ll check out a few of AVA’s features.</summary></entry></feed>

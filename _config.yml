@@ -1,0 +1,17 @@
+title: AVA Casts
+description: >
+  AVA Casts is a series of short screencasts about AVA test framework.
+baseurl: ""
+url: ""
+twitter_username: vadimdemedes
+github_username:  vadimdemedes
+google_analytics: UA-56814364-8
+
+permalink: /episodes/:slug
+
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

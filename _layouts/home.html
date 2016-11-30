@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="episodes">
+{% for post in site.posts %}
+  <div class="episode">
+    <a href="{{ post.url | relative_url }}">
+      <img src="/assets/thumbnails/{{ post.episode }}.jpg" class="fit">
+    </a>
+    
+    <div class="episode-desc">
+      <h2 class="episode-title flex-auto">
+        <a href="{{ post.url | relative_url }}">
+          <span class="episode-title-prefix">Ep {{ post.episode }}.</span>
+          {{ post.title | escape }}
+        </a>
+      </h2>
+      
+      <div class="episode-buttons">
+        <a href="{{ post.url | relative_url }}" class="button">Watch now</a>
+      </div>
+    </div>
+    
+    <span class="episode-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="episode-body">{{ post.excerpt }}</div>
+    
+  </div>
+{% endfor %}
+</div>

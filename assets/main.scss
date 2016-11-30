@@ -1,0 +1,125 @@
+---
+---
+
+$font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: $font-family;
+  font-size: 1.6rem;
+  color: #1B1B1E;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+a {
+  color: #4C4B63;
+  text-decoration: none;
+}
+
+.container {
+  margin: auto auto;
+  max-width: 640px;
+}
+
+header {
+  margin: 40px 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.fit {
+  max-width: 100%;
+}
+
+.episodes {
+  margin-top: 80px;
+}
+
+.video {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+.episode-desc {
+  margin: 12px 0 6px;
+  display: flex;
+}
+
+.episode-title {
+  margin: 0;
+}
+
+.episode-title-prefix {
+  color: #ABA8B2;
+}
+
+.episode-buttons {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 110px;
+}
+
+.episode-date {
+  color: #798071;
+}
+
+.episode-body {
+  line-height: 1.6;
+}
+
+.button {
+  display: block;
+  background: #4C4B63;
+  color: #fff;
+  border-radius: 2px;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #3c3b4c;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #798071;
+  font-size: 1.2rem;
+}
+
+ul {
+  padding: 0 0 0 6px;
+  margin: 0;
+  list-style: none;
+}

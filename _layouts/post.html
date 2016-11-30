@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="episodes">
+  <div class="episode">
+    <div class="video">
+      <iframe src="https://player.vimeo.com/video/{{ page.video_id }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    
+    <div class="episode-desc">
+      <h2 class="episode-title flex-auto">
+        <a href="{{ page.url | relative_url }}">
+          <span class="episode-title-prefix">Ep {{ page.episode }}.</span>
+          {{ page.title | escape }}
+        </a>
+      </h2>
+      
+      <div class="episode-buttons">
+        <a class="twitter-share-button" data-size="large" href="https://twitter.com/intent/tweet?via=avacasts&related=vadimdemedes,ava__js,sindresorhus&text=🎥 New AVA Cast is out - {{ page.title | escape }}!">Tweet</a>
+      </div>
+    </div>
+    
+    <span class="episode-date">{{ page.date | date: "%b %-d, %Y" }}</span>
+    <div class="episode-body">{{ content }}</div>
+  </div>
+</div>
