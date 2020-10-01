@@ -113,6 +113,13 @@ header {
   padding: 8px 12px;
   font-weight: bold;
   border-bottom: 1px solid #3c3b4c;
+transition: all 0.5s ease;
+}
+.button:hover {
+  display: block;
+  background: transparent;
+  color: black;
+ 
 }
 
 footer {
